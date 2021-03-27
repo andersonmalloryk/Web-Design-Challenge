@@ -1,11 +1,4 @@
-.header{
-    height: 150px;
-    padding-top: 20px;
-    background: #DDA0DD
-}
-
 h1{
-    font-size: 80px;
     text-align: center;
 }
 
@@ -19,6 +12,8 @@ h1{
     padding: 5px
   }
 
-@media (mind-width: 768px) {
-    /* change the boxes to stack */
+@media (min-width: 768px) {
+    .navbar-expand-lg{
+        background: slateblue
+    }
 }
