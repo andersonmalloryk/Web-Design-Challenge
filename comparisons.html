@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Weather Data Visualizations</title>
+    <title>Comparisons</title>
   </head>
   <body>
-
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Weather</a>
@@ -43,45 +42,30 @@
     </nav>
 
     <div class="jumbotron">
-      <h1 class="display-4">Weather Data Visualizations</h1>
-      <p class="lead">This site shows the results from an analysis of temperature, humidity, cloudiness, and windspeed versus latitudes in January. 
-        It was completed to guide selection of a city to travel to for a vacation.</p>
+      <h1 class="display-4">Comparions</h1>
+      <p class="lead">Here are all four visualizations for the weather and location data. Each title is a button and will bring you to the page for that image for further analysis.</p>
     </div>
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig1.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Maximum Temperature</h5>
-        <p class="card-text">Review the analysis of maximum temperature versus latitude.</p>
-        <a href="vizOne.html" class="btn btn-primary">Max Temp</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig2.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Humidity</h5>
-        <p class="card-text">Review the analysis of humidity versus latitude.</p>
-        <a href="vizTwo.html" class="btn btn-primary">Humidity</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig3.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Cloudiness</h5>
-        <p class="card-text">Review the analysis of cloudiness versus latitude.</p>
-        <a href="vizThree.html" class="btn btn-primary">Cloudiness</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig4.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Wind Speed</h5>
-        <p class="card-text">Review the analysis of wind speed versus latitude.</p>
-        <a href="vizFour.html" class="btn btn-primary">Wind Speed</a>
-      </div>
+    <div class="container">
+      <!--Normally these medium columns go full wide on small screen sizes-->
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <a href="vizOne.html" class="btn btn-secondary btn-lg" role="button" aria-disabled="true">Max Temp</a>
+          <img class="box" src="Resources/assets/images/Fig1.png" href="vizOne.html" alt="Max Temperature">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <a href="vizTwo.html" class="btn btn-secondary btn-lg" role="button" aria-disabled="true">Humidity</a>
+          <img class="box" src="Resources/assets/images/Fig2.png" href="vizTwo.html" alt="Humidity">
+        </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <a href="vizThree.html" class="btn btn-secondary btn-lg" role="button" aria-disabled="true">Cloudiness</a>
+          <img class="box" src="Resources/assets/images/Fig3.png" href="vizThree.html" alt="Cloudiness">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <a href="vizFour.html" class="btn btn-secondary btn-lg" role="button" aria-disabled="true">Wind Speed</a>
+          <img class="box" src="Resources/assets/images/Fig4.png"  alt="Wind Speed">
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

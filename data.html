@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Weather Data Visualizations</title>
+    <title>Data</title>
   </head>
   <body>
-
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Weather</a>
@@ -43,45 +42,18 @@
     </nav>
 
     <div class="jumbotron">
-      <h1 class="display-4">Weather Data Visualizations</h1>
-      <p class="lead">This site shows the results from an analysis of temperature, humidity, cloudiness, and windspeed versus latitudes in January. 
-        It was completed to guide selection of a city to travel to for a vacation.</p>
+      <h1 class="display-4">Data</h1>
+      <p class="lead">Here is the weather data used for the analysis.</p>
     </div>
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig1.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Maximum Temperature</h5>
-        <p class="card-text">Review the analysis of maximum temperature versus latitude.</p>
-        <a href="vizOne.html" class="btn btn-primary">Max Temp</a>
-      </div>
-    </div>
+    <div class="table-responsive">
+      <table class="table">
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig2.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Humidity</h5>
-        <p class="card-text">Review the analysis of humidity versus latitude.</p>
-        <a href="vizTwo.html" class="btn btn-primary">Humidity</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig3.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Cloudiness</h5>
-        <p class="card-text">Review the analysis of cloudiness versus latitude.</p>
-        <a href="vizThree.html" class="btn btn-primary">Cloudiness</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig4.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Wind Speed</h5>
-        <p class="card-text">Review the analysis of wind speed versus latitude.</p>
-        <a href="vizFour.html" class="btn btn-primary">Wind Speed</a>
-      </div>
+        <!-- The data must come from exporting the .csv file as HTML, or converting it to HTML. 
+        Try using a tool you already know, pandas. 
+        Pandas has a nifty method approprately called to_html that allows you to generate a HTML table from a pandas dataframe.  -->
+        
+      </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

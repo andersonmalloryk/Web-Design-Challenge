@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Weather Data Visualizations</title>
+    <title>Max Temp</title>
   </head>
   <body>
-
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Weather</a>
@@ -43,47 +42,25 @@
     </nav>
 
     <div class="jumbotron">
-      <h1 class="display-4">Weather Data Visualizations</h1>
-      <p class="lead">This site shows the results from an analysis of temperature, humidity, cloudiness, and windspeed versus latitudes in January. 
-        It was completed to guide selection of a city to travel to for a vacation.</p>
+      <h1 class="display-4">Maximum Temperature versus Latitude</h1>
     </div>
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig1.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Maximum Temperature</h5>
-        <p class="card-text">Review the analysis of maximum temperature versus latitude.</p>
-        <a href="vizOne.html" class="btn btn-primary">Max Temp</a>
+    <div class="container">
+      <!--Normally these medium columns go full wide on small screen sizes-->
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img class="box" src="Resources/assets/images/Fig1.png" alt="Maximum Temperature">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <p>This analysis reviewed temperature, humidity, cloudiness, and windspeed to allow a person to select city to travel to for vacation. 
+            In this analysis maximum temperature (farenheit) was graphed against latitude to determine if parts of the world are hotter or cooler than others.
+            This data was retrieved in January to plan a winter vactaion, and shows that the southern hemisphere is enjoying summer!
+            This graph suggests if we'd like to enjoy warmer weather, we'll need to travel to the southern hemisphere for a vacation and if we'd like to enjoy cooler temperatures and possibly snow we will want to stay in the northern hemispehere. 
+          </p>
+        </div>    
       </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig2.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Humidity</h5>
-        <p class="card-text">Review the analysis of humidity versus latitude.</p>
-        <a href="vizTwo.html" class="btn btn-primary">Humidity</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig3.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Cloudiness</h5>
-        <p class="card-text">Review the analysis of cloudiness versus latitude.</p>
-        <a href="vizThree.html" class="btn btn-primary">Cloudiness</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig4.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Wind Speed</h5>
-        <p class="card-text">Review the analysis of wind speed versus latitude.</p>
-        <a href="vizFour.html" class="btn btn-primary">Wind Speed</a>
-      </div>
-    </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

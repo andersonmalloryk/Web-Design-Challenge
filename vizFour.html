@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Weather Data Visualizations</title>
+    <title>Wind Speed</title>
   </head>
   <body>
 
-
+ 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Weather</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,44 +43,22 @@
     </nav>
 
     <div class="jumbotron">
-      <h1 class="display-4">Weather Data Visualizations</h1>
-      <p class="lead">This site shows the results from an analysis of temperature, humidity, cloudiness, and windspeed versus latitudes in January. 
-        It was completed to guide selection of a city to travel to for a vacation.</p>
+      <h1 class="display-4">Wind Speed versus Latitude</h1>
     </div>
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig1.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Maximum Temperature</h5>
-        <p class="card-text">Review the analysis of maximum temperature versus latitude.</p>
-        <a href="vizOne.html" class="btn btn-primary">Max Temp</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig2.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Humidity</h5>
-        <p class="card-text">Review the analysis of humidity versus latitude.</p>
-        <a href="vizTwo.html" class="btn btn-primary">Humidity</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig3.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Cloudiness</h5>
-        <p class="card-text">Review the analysis of cloudiness versus latitude.</p>
-        <a href="vizThree.html" class="btn btn-primary">Cloudiness</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="Resources/assets/images/Fig4.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Wind Speed</h5>
-        <p class="card-text">Review the analysis of wind speed versus latitude.</p>
-        <a href="vizFour.html" class="btn btn-primary">Wind Speed</a>
+    <div class="container">
+      <!--Normally these medium columns go full wide on small screen sizes-->
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img class="box" src="Resources/assets/images/Fig4.png" alt="Wind Speed versus Latitude">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <p>This analysis reviewed temperature, humidity, cloudiness, and windspeed to allow a person to select city to travel to for vacation. 
+            In this analysis wind speed (miles per hour) was graphed against latitude to determine if parts of the world are windier than others.
+            What was found was that although there are some northern latitudes that are windier, generally wind speed is between zero and ten miles per hour.
+            This graph may hint at a southern hemisphere adventure.
+          </p>
+        </div>    
       </div>
     </div>
 

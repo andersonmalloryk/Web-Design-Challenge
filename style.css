@@ -13,6 +13,12 @@ h1{
     text-align: center;
 }
 
-.box{
-    background: #6A5ACD
+.box {
+    width: 600px;
+    height: 500px;
+    padding: 5px
+  }
+
+@media (mind-width: 768px) {
+    /* change the boxes to stack */
 }
