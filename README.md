@@ -5,10 +5,14 @@ A website was created using bootstrap as well as CSS.
 There are several files for the different HTML pages to display:
 
 ### Landing Page
-See the index.html where the landing page is designed
+See the index.html where the landing page is designed.
 
 ### Visualizations
 The visualization pages are linked in several places on the site. There are four html files for these visualizations.
 
 ### Data
-Use the DataFrame.ipynb to read the csv of city weather data into a 
+Use the DataFrame.ipynb to read the csv of city weather data into HTML. 
+This HTML is copied and modified for design in data.html.
+
+### Weather Analysis Website
+This website demonstrates several visualizations as well as summaries. Certain design elements shift depending on the size of the screen to make it tablet and phone ready. 
